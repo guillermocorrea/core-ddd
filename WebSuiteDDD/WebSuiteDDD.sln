@@ -11,7 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LoadTesting", "LoadTesting"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSuiteDDD.Loadtesting.Domain", "WebSuiteDDD.Loadtesting.Domain\WebSuiteDDD.Loadtesting.Domain.csproj", "{DDA1DBED-1D47-4615-B9E8-5A032226DDFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSuiteDDD.Loadtesting.UnitTests", "WebSuiteDDD.Loadtesting.UnitTests\WebSuiteDDD.Loadtesting.UnitTests.csproj", "{DC4C9B61-3865-49AC-BDF0-E5075F1486EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSuiteDDD.Loadtesting.UnitTests", "WebSuiteDDD.Loadtesting.UnitTests\WebSuiteDDD.Loadtesting.UnitTests.csproj", "{DC4C9B61-3865-49AC-BDF0-E5075F1486EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSuiteDDD.Repository.EF", "WebSuiteDDD.Repository.EF\WebSuiteDDD.Repository.EF.csproj", "{75C6E804-5117-4CA8-8066-F0A35B82A92C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebSuiteDDD.Loadtesting.Repository.EF", "WebSuiteDDD.Loadtesting.Repository.EF\WebSuiteDDD.Loadtesting.Repository.EF.csproj", "{DEA47865-D39B-4097-914E-26AD7ED403A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDatabaseTester", "DemoDatabaseTester\DemoDatabaseTester.csproj", "{69F58E4C-D978-419A-9E2A-8E8D3677DF8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +37,18 @@ Global
 		{DC4C9B61-3865-49AC-BDF0-E5075F1486EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC4C9B61-3865-49AC-BDF0-E5075F1486EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC4C9B61-3865-49AC-BDF0-E5075F1486EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75C6E804-5117-4CA8-8066-F0A35B82A92C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75C6E804-5117-4CA8-8066-F0A35B82A92C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75C6E804-5117-4CA8-8066-F0A35B82A92C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75C6E804-5117-4CA8-8066-F0A35B82A92C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA47865-D39B-4097-914E-26AD7ED403A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA47865-D39B-4097-914E-26AD7ED403A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA47865-D39B-4097-914E-26AD7ED403A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA47865-D39B-4097-914E-26AD7ED403A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69F58E4C-D978-419A-9E2A-8E8D3677DF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F58E4C-D978-419A-9E2A-8E8D3677DF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69F58E4C-D978-419A-9E2A-8E8D3677DF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69F58E4C-D978-419A-9E2A-8E8D3677DF8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,5 +57,6 @@ Global
 		{7DC95DFC-BD58-45BE-BDE6-BAF571E20F32} = {ACFD15EE-AB61-4EB1-AEA1-F912DF3E4809}
 		{DDA1DBED-1D47-4615-B9E8-5A032226DDFB} = {7DC95DFC-BD58-45BE-BDE6-BAF571E20F32}
 		{DC4C9B61-3865-49AC-BDF0-E5075F1486EB} = {7DC95DFC-BD58-45BE-BDE6-BAF571E20F32}
+		{DEA47865-D39B-4097-914E-26AD7ED403A2} = {7DC95DFC-BD58-45BE-BDE6-BAF571E20F32}
 	EndGlobalSection
 EndGlobal
